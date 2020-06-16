@@ -1,0 +1,73 @@
+@media(min-width:992px){
+  body{
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+
+  #sidenav{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+
+  #sidenav .navbar-brand{
+    margin: 15rem auto 0 auto;
+    padding: 0.5rem;
+    display: flex;
+  }
+  #sidenav .navbar-nav{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #sidenav .collapse{
+    align-items: flex-start;
+  }
+
+  .me{
+    max-width: 10rem;
+    max-height: 10rem;
+    border: .5rem solid rgba(255,255,255,.2);
+  }
+}
+
+ .nav-item a{
+  color: #FF9980;
+}
+
+.navbar-toggler{
+  color: rgba(255,255,255,.5);
+}
+
+.navbar-brand{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-item{
+  margin: 0.2rem 0 0.2rem 0;
+  font-size: 1.2rem;
+}
+
+ .active a{
+  color: #ffffff;
+}
+
+.navbar-brand{
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.bg-col{
+  background-image: linear-gradient(to top,#FD3A4A, #FA5B3D);
+
+}
