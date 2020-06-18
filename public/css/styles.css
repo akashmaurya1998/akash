@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Odibee+Sans&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
 @media(min-width:992px){
   body{
     padding-top: 0;
     padding-left: 17rem;
+  }
+
+  .contents{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    min-height: 100vh;
   }
 
   #sidenav{
@@ -54,7 +66,6 @@
 
 .nav-item{
   margin: 0.2rem 0 0.2rem 0;
-  font-size: 1.2rem;
 }
 
  .active a{
@@ -70,4 +81,28 @@
 .bg-col{
   background-image: linear-gradient(to top,#FD3A4A, #FA5B3D);
 
+}
+
+.Name{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.social a:hover{
+  color: #FD3A4A;
+}
+
+.skill-icon:hover{
+  color: #FD3A4A;
+}
+
+/* -------------------------------------------Mobile Development--------------------------- */
+@media (max-width:992px) {
+  body{
+    padding-top: 54px;
+  }
+
+  .Name{
+    font-size: 5rem;
+    margin-top: 0;
+  }
 }
